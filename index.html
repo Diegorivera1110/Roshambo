@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
     <title>Roshambo</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="scores">
+            <p>Computer :
+                <span id="computer_score">0</span>
+            </p>
+            <p>
+                You :
+                <span id="user_score">0</span>
+            </p>
+        </div>
+        <div class="actions">
+            <button onclick="checker('rock')">
+                <i class=""></i>
+            </button>
+            <button onclick="checker('paper')">
+                <i class=""></i>
+            </button>
+            <button onclick="checker('scissors')">
+                <i class=""></i>
+            </button>
+        </div>
+        <div class="actions">
+            <p id="user_choice"></p>
+            <p id="comp_choice"></p>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
