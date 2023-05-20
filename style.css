@@ -53,9 +53,25 @@ body {
     margin-top: 10px;
     text-align: center;
 }
-.scores, .actions {
+.scores, 
+.actions {
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 15px;
+}
+#result {
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#user_choice,
+#comp_choice {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+span {
+    font-weight: 600;
 }
