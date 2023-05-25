@@ -31,4 +31,12 @@ function checker(input){
 
     let computer_score = choices[num];
     
+    switch (choices_object[input][computer_choice]) {
+        case 'win':
+            break;
+        case 'lose':
+            break;
+        default:
+            break;
+    }
 }
