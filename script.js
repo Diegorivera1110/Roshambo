@@ -33,6 +33,9 @@ function checker(input){
     
     switch (choices_object[input][computer_choice]) {
         case 'win':
+            result_ref.style.cssText = "background-color: #ffdde0; color: #d32f2f";
+            result_ref.innerHTML = "YOU WIN";
+            user_score++;
             break;
         case 'lose':
             break;
